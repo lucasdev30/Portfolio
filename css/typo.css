@@ -1,0 +1,100 @@
+
+h3 {
+    color: #000;
+
+    font-family: "Playfair Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h4 {
+    color: #000;
+
+    font-family: "Playfair Display";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h5 {
+    color: #000;
+
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p, li{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.headerTypo{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.btn-normal,
+.btn-prio {
+    color: var(--orange-orange-fonc, #E55817);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+@media screen and (max-width: 825px) {
+
+    h1 {
+        font-size: 50px;
+    }
+    
+    
+    h2 {
+        color: #000;
+    
+        /* h2 */
+        font-family: "Playfair Display";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    h3 {
+        color: #000;
+    
+        /* h3 */
+        font-family: "Playfair Display";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    h4 {
+        color: #000;
+    
+        /* h3 */
+        font-family: "Playfair Display";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+}

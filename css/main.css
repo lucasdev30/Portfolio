@@ -1,0 +1,85 @@
+.main-contener {
+    width: calc(100% - 160px);
+    margin-left: 80px;
+}
+
+.espace {
+    margin-bottom: 200px;
+}
+
+.aparition-annim {
+    transition: opacity 0.8s, transform 0.8s;
+}
+
+.rectangle {
+    width: 100%;
+    height: fit-content;
+    background-color: #dbdbdb;
+    padding-top: 60px;
+    
+}
+
+.rectangle-with-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-top: -70px;
+    flex-direction: row;
+
+}
+
+.rectangle-with-img img {
+    width: 300px;
+    height: auto;
+  
+}
+
+.text-rectangle-btn {
+    width: calc(100% - 160px);
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-normal {
+    border-radius: 90px;
+    border: 2px solid var(--orange-orange-fonc, #E55817);
+    background: var(--Blanc, #F1F1F1);
+    display: flex;
+    padding: 12px 28px;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms;
+    width: fit-content;
+}
+
+.btn-normal:hover {
+    background: var(--orange-orange-main, #E37543);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.all-img-align {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* ou 150px si tu veux une largeur fixe */
+    justify-content: center;
+    align-items: center;
+  margin-top: 150px;
+  gap: 100px;
+}
+
+.img-click img {
+    width: 150px;
+    height: auto;
+    margin-top: -50px;
+    
+}
+
+  
+  
+

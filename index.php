@@ -1,0 +1,297 @@
+<?php include 'inc/header.php'; ?>
+
+
+
+<section id="Accueil" class="rectangle rectangle-with-img aparition-annim">
+    <div class="text-rectangle-btn">
+        <h4>A propos</h4>
+
+        <p>Bienvenue ! Je me présente : Lucas Baille, 20 ans, et je suis en train de finaliser mon BTS SIO.
+            Mon objectif est par la suite de poursuivre mes études afin de développer mes compétences en code et,
+            plus globalement, de créer et participer à des projets plus amusants les uns que les autres !
+        </p>
+
+        <div class="contener-btn">
+            <a href="CV/C.V Lucas Baille.pdf" download class="btn-normal">Télécharger mon CV</a>
+        </div>
+    </div>
+    <img src="images/photo_lucas.jpg" alt="">
+</section>
+
+
+<div class="espace"></div>
+
+
+<section id="parcours">
+    <div class="main-contener">
+        <h3>Mon parcours</h3>
+
+        <section class="left-line-circle aparition-annim columns-timeline">
+
+            <!-- Formations -->
+            <div class="column-timeline">
+                <h4>Formations</h4>
+                <div class="timeline">
+
+                    <div class="evenement">
+                        <div class="ligne-date">
+                            <div class="circle"></div>
+                            <h5>JUIN 2020 - BREVET</h5>
+                        </div>
+                    </div>
+
+                    <div class="evenement">
+                        <div class="ligne-date">
+                            <div class="circle"></div>
+                            <h5>JUIN 2023 - BACCALAUREAT | NIMES (30)</h5>
+                        </div>
+                        <p>• Spécialisation : STI2D </p>
+                        <p> • Option : Système d’Information et Numérique (SIN)</p>
+                    </div>
+
+                    <div class="evenement">
+                        <div class="ligne-date">
+                            <div class="circle"></div>
+                            <h5>JUIN 2025 - BTS Services informatiques aux organisations (SIO) | NIMES (30)</h5>
+                        </div>
+                        <p>• Spécialisation : Développeur – Cybersécurité </p>
+                        <p>• Option : Solutions Logicielles et Applications Métiers (SLAM)</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Expériences -->
+            <div class="column-timeline">
+                <h4>Expériences professionnelles</h4>
+                <div class="timeline">
+
+                    <div class="evenement">
+                        <div class="ligne-date">
+                            <div class="circle"></div>
+                            <h5>MAI et JUIN 2024 - STAGE ICM INFORMATIQUE | NIMES (30) </h5>
+                        </div>
+                        <p>• Manipulation d’outils informatiques</p>
+                        <p>• Apprentissage d’un dépannage de ses outils</p>
+                    </div>
+
+                    <div class="evenement">
+                        <div class="ligne-date">
+                            <div class="circle"></div>
+                            <h5>JANVIER et FEVRIER 2025 - STAGE CELINE CHANDOU KINESIOLOGUE | NIMES (30)</h5>
+                        </div>
+                        <p>• Création d’un site web </p>
+                        <p>• Maquettage</p>
+                        <p>• Apprentissage de nouvelles techniques de programmation</p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+</section>
+
+</div> <!--  end main-contener -->
+
+
+
+<div class="espace"></div>
+
+
+<div class="main-contener">
+
+    <section id="competences" class="contener-text-center aparition-annim">
+        <h3>Mes compétences</h3>
+        <p>Lors de mon BTS SIO, j'ai pu découvrir les bases de la programmation.
+            Avec un regard plus attentif sur le développement back-end, j'ai notamment appris à
+            créer, utiliser et lier des bases de données à des sites web ou à des applications de type Android.
+        </p>
+
+        <p>Voici les différents langages que j'ai étudiés :</p>
+    </section>
+
+
+    <section class="all-img-align aparition-annim">
+        <article class="img-click">
+            <img src="images/Logos languages/html.png" alt="amavie-mutuelle">
+        </article>
+        <article class="img-click">
+            <img src="images/Logos languages/javascript.png" alt="mfif-mutuelle">
+        </article>
+
+        <article class="img-click">
+            <img src="images/Logos languages/css.png" alt="swisslife-mutuelle">
+        </article>
+
+        <article class="img-click">
+            <img src="images/Logos languages/php.png" alt="mca-mutuelle">
+        </article>
+
+        <article class="img-click">
+            <img src="images/Logos languages/Csharp.png" alt="entrenous-mutuelle">
+        </article>
+
+        <article class="img-click">
+            <img src="images/Logos languages/sql.png" alt="mutasante-mutuelle">
+        </article>
+
+        <article class="img-click"></article>
+
+        <article class="img-click">
+            <img src="images/Logos languages/Android.png" alt="nostrumcare-mutuelle">
+        </article>
+
+
+
+    </section>
+
+</div> <!--  end main-contener -->
+
+
+
+<div class="espace"></div>
+
+
+
+<div class="main-contener">
+
+    <section id="projets" class="contener-text-center aparition-annim">
+        <article class="contener-titre-text">
+            <h3>Mes projets</h3>
+            <p>Durant mes deux années d'études, j'ai pu travailler sur des ateliers professionnels,
+                deux stages et quelques projets perso avec des amis !</p>
+            <p>Voici tous les projets que j'ai eu la chance de réaliser :</p>
+        </article>
+    </section>
+
+    <div class="carousel-container">
+        <button class="carousel-btn prev">&lt;</button>
+
+        <div class="carousel-track">
+            <div class="carousel-item">
+                <a href="http://ap_2.test/" target="_blank" class="project-link">
+                    <div class="project-hover">
+                        <img src="images/Projets/AP2.png" alt="Projet AP2">
+                        <div class="hover-info">
+                            <h5>AP2</h5>
+                            <p>• Site dynamique d'une activité culturelle</p>
+                            <p>• Février-Mai 2024</p>
+                            <p>• Logiciel : VisualStudio Code</p>
+                            <p>• Projet solitaire</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+
+            <div class="carousel-item">
+                <a href="http://ap3.test/" target="_blank" class="project-link">
+                    <div class="project-hover">
+                        <img src="images/Projets/AP3.png" alt="Projet AP3">
+                        <div class="hover-info">
+                            <h5>AP3</h5>
+                            <p>• Suite AP2 avec programmation client/serveur</p>
+                            <p>• Septembre-Novembre 2024</p>
+                            <p>• Logiciel : VisualStudio Code, SSMS</p>
+                            <p>• Projet solitaire</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="carousel-item">
+                <div class="project-hover">
+                    <img src="images/Projets/AP4.png" alt="Projet AP4">
+                    <div class="hover-info">
+                        <h5>AP4</h5>
+                        <p>• Application Android</p>
+                        <p>• Janvier-Mai 2025</p>
+                        <p>• Logiciel : AndroidStudio</p>
+                        <p>• Projet solitaire</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <a href="http://stage-chandou.test/" target="_blank" class="project-link">
+                    <div class="project-hover">
+                        <img src="images/Projets/StageCelineChandou.png" alt="Projet Stage Chandou">
+                        <div class="hover-info">
+                            <h5>Stage Celine Chandou</h5>
+                            <p>• Site vitrine d'une entreprise de kinésiologie</p>
+                            <p>• Janvier-Février 2025</p>
+                            <p>• Logiciel : VisualStudio Code, SSMS, Figma</p>
+                            <p>• Projet solitaire</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="carousel-item">
+                <a href="https://smilelifefangame.netlify.app/" target="_blank" class="project-link">
+                    <div class="project-hover">
+                        <img src="images/Projets/SmileLifeFanGame.png" alt="Projet SmileLife FanGame">
+                        <div class="hover-info">
+                            <h5>SmileLife FanGame</h5>
+                            <p>• Site non-oficiel d'un jeu de société </p>
+                            <p>• Juin 2024</p>
+                            <p>• Logiciel : VisualStudio Code, Github</p>
+                            <p>• Projet en équipe</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="carousel-item">
+                <a href="https://nomdujeuxjam.netlify.app/" target="_blank" class="project-link">
+                    <div class="project-hover">
+                        <img src="images/Projets/GameJam.png" alt="Projet GameJam">
+                        <div class="hover-info">
+                            <h5>GameJam</h5>
+                            <p>• Défi création d'un jeu vidéo scratch</p>
+                            <p>• 14/15/16 Février 2025</p>
+                            <p>• Logiciel : Aseprite</p>
+                            <p>• Projet en équipe</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+        <button class="carousel-btn next">&gt;</button>
+
+    </div>
+
+
+
+
+</div> <!--  end main-contener -->
+
+
+<div class="espace"></div>
+
+
+<div class="main-contener">
+
+    <section id="etudes" class="contener-text-center aparition-annim">
+        <article class="contener-titre-text">
+            <h3>Poursuite d'études</h3>
+            <p>Ce BTS SIO m'a permi de développer une vraie passion autour du développement web. C'est pourquoi 
+                mon objectif est de continuer dans ce domaine avec un BUT MMI (Métier du Multimedia et de l'internet) 
+                ou un BUT Informatique. Le but est à termes de devenir un développeur full-stack, ce qui va me démarquer 
+                sur le marché du travail.</p>
+        </article>
+    </section>
+
+</div> <!--  end main-contener -->
+
+
+<div class="espace"></div>
+
+
+
+<script src="js/apparition.js"></script>
+<script src="js/carousel.js"></script>

@@ -1,0 +1,36 @@
+footer.rectangle-footer {
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-top: 3px solid #d47979;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* pas fixed pour qu'il reste en bas naturellement */
+    z-index: 1000;
+}
+
+#menu-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    gap: 50px; /* espace entre les liens */
+}
+
+.footerTypo {
+    font-family: 'Montserrat', sans-serif; /* Même typo */
+    font-size: 16px;
+    color: #333; /* Même couleur de texte que ton header */
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.footerTypo:hover {
+    color: #d47979; /* jolie couleur au hover */
+}
+
+.lien-disapire {
+    text-decoration: none;
+}
